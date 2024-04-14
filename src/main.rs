@@ -65,7 +65,7 @@ fn app() -> Html {
 
     html! {
         <>
-        <h1>{ "圣神鸡盒" }</h1>
+        <h1>{ "神圣鸡盒计算器" }</h1>
         <h2>{ "骰子:" }</h2>
         <input
             onchange={get_dices}
